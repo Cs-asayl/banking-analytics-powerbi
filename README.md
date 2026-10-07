@@ -4,7 +4,21 @@ An interactive dashboard exploring customer activity and cash movement using syn
 
 ## Dashboard Preview
 
-Dashboard screenshots will be added soon.
+### Overview
+
+![Dashboard overview](overview.png)
+
+### Transaction Details
+
+![Transaction details](transactions.png)
+
+### Filter Example: Abha
+
+![Dashboard filtered by Abha](abha-filter.png)
+
+### Filter Example: Riyadh Savings Accounts
+
+![Riyadh savings accounts](riyadh-savings.png)
 
 ## Project Overview
 
@@ -20,6 +34,7 @@ This project analyzes 12,000 transactions across 1,000 customers and 1,200 accou
 ## Report Pages
 
 ### Overview
+
 - Active customers and accounts
 - Total transactions
 - Total deposits and withdrawals
@@ -29,6 +44,7 @@ This project analyzes 12,000 transactions across 1,000 customers and 1,200 accou
 - Filters by city, month, and account type
 
 ### Transactions
+
 - Transaction-level details
 - Gross transaction volume
 - Average transaction amount
@@ -53,6 +69,7 @@ Net movement equals deposits minus withdrawals. It does not represent bank profi
 ## Data Model
 
 Four related tables:
+
 - Customers
 - Accounts
 - Transactions
